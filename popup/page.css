@@ -17,7 +17,7 @@ body {
 	background-color: var(--blue-gray-900);
 }
 
-.page-choice {
+.choice {
 	width: 100%;
 	padding: 4px;
 	font-size: 1.5em;
@@ -25,6 +25,6 @@ body {
 	cursor: pointer;
 }
 
-.page-choice:hover {
+.choice:hover {
 	background-color: var(--blue-gray-800);
 }
