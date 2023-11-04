@@ -1,6 +1,20 @@
+:root {
+	--blue-gray-900: #263238;
+	--blue-gray-800: #37474F;
+	--blue-gray-700: #455A64;
+	--blue-gray-600: #546E7A;
+	--blue-gray-500: #607D8B;
+	--blue-gray-400: #78909C;
+	--blue-gray-300: #90A4AE;
+	--blue-gray-200: #B0BEC5;
+	--blue-gray-100: #CFD8DC;
+	--blue-gray-50: #ECEFF1;
+}
+
 html,
 body {
 	width: 300px;
+	background-color: var(--blue-gray-900);
 }
 
 .page-choice {
@@ -12,5 +26,5 @@ body {
 }
 
 .page-choice:hover {
-	background-color: #cff2f2;
+	background-color: var(--blue-gray-800);
 }
