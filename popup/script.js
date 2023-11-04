@@ -1,10 +1,6 @@
-document.addEventListener("click", (event) => {
-	if (!event.target.classList.contains("page-choice")) {
-		return;
-	}
 
-	const chosenPage = `https://${event.target.textContent}`;
-	browser.tabs.create({
-		url: chosenPage,
-	});
-});
+const Encode = () => document.querySelector('#encode');
+const Decode = () => document.querySelector('#decode');
+
+Encode().addEventListener('keyup', (_) => Decode().value = btoa(Encode().value));
+Decode().addEventListener('keyup', (_) => Encode().value = atob(Decode().value));
