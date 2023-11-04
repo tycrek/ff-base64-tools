@@ -5,8 +5,8 @@
 @layer base {}
 
 @layer components {
-	.choice {
-		@apply font-mono rounded-lg p-2 bg-slate-800 hover_bg-slate-700 hover_cursor-pointer;
+	.input {
+		@apply font-mono rounded-lg p-2 bg-slate-800 focus_bg-slate-700;
 	}
 }
 

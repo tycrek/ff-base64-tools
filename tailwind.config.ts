@@ -6,9 +6,6 @@ export default {
 	content: ['./views/**/*.pug'],
 	theme: {
 		extend: {
-			colors: {
-				tycrek: '#FFAA4B',
-			}
 		}
 	}
 } satisfies Config;
