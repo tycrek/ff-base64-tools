@@ -1,11 +1,12 @@
 {
 	"scripts": {
-		"build:render": "",
+		"build:render": "pagery --output=popup/",
 		"build:compile": "web-ext build --overwrite-dest",
 		"build": "pnpm run build:render && pnpm run build:compile"
 	},
 	"devDependencies": {
 		"pagery": "^0.6.5",
+		"tailwindcss": "^3.3.5",
 		"web-ext": "^7.8.0"
 	}
 }
