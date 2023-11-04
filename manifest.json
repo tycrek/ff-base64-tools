@@ -4,14 +4,10 @@
 	"version": "0.1",
 	"description": "A collection of Base64 tools, including encode & decode",
 	"icons": {
-		"48": "icons/border-48.png"
-	},
-	"background": {
-		"scripts": [
-			"b64t.js"
-		]
+		"48": "icons/base64-tools-48.png"
 	},
 	"browser_action": {
+		"default_popup": "popup/page.html",
 		"default_icon": {
 			"16": "icons/page-16.png",
 			"32": "icons/page-32.png"
