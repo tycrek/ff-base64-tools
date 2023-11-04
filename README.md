@@ -6,4 +6,4 @@
 
 </div>
 
-to debug: [click here](about:debugging#/runtime/this-firefox)
+to debug: `about:debugging#/runtime/this-firefox`
